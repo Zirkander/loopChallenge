@@ -1,0 +1,34 @@
+//create a loop that will console.log all of the odd values from 1 up to 20.
+
+var i = 1;
+while(i < 20){
+    console.log(i);
+    i += 2;
+}
+
+//Using a loop, write code that will console.log all of the values that are evenly divisible by 3 from 100 down to 0.
+for(var i = 100; i > 0; i--){
+    if(i % 3 == 0){
+        console.log(i);
+    }
+}
+
+//Using a loop, write code that will console.log the values in this sequence 4, 2.5, 1, -0.5, -2, -3.5.
+var seq = [4, 2.5, 1, -0.5, -2, -3.5];
+for(var i=0; i < seq.length; i++){
+    console.log(seq[i]);
+}
+
+// Write code that will add all of the values from 1-00 onto some variable sum and at the end console.log the result. We should get back 5050 at the end.
+var sum = 0;
+for(var i = 0; i <= 100; i++){
+    sum += i;
+}
+console.log(sum);
+
+//Write code that will multiply all of the values from 1-12 onton some variable product and at the end console.log the result. We should get back 479001600 at the end.
+var product = 1;
+for(i = 1; i <= 12; i ++){
+    product = product * i;
+}
+console.log(product);
